@@ -2,7 +2,7 @@ import paramiko
 import telebot
 import time
 
-bot = telebot.TeleBot('7470189635:AAE9LjrQy5teE3D-uXzqGBMwBzuXfgRWxdg')
+bot = telebot.('')
 user_answers = {}
 
 @bot.message_handler(commands=['register'])
